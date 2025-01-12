@@ -50,8 +50,6 @@ jobs:
         name: Test report
         path: logs
 
-
-jobs:
   firefox:
 
     runs-on: ubuntu-22.04
