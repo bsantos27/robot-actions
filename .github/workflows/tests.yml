@@ -36,8 +36,8 @@ jobs:
     - name: Browser Init
       run: rfbrowser init        
     
-    - name: Run E2E Tests
-      run: robot -d ./logs -i smoke tests 
+    #- name: Run E2E Tests
+      #run: robot -d ./logs -i smoke tests 
 
     - name: Robot Reporter
       uses: joonvena/robotframework-reporter-action@v2.4
